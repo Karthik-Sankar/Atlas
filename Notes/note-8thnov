@@ -1,0 +1,54 @@
+Thread Synchronization 
+pthread_mutex_t - lock variable like mutex;
+pthread_mutex_lock - like sem_wait
+pthread_mutex_unlock - like sem_post
+pthread_init - like sem_init
+pthread_destroy
+
+
+--pieterson solution flag and turn
+
+Spin locks & wastage of CPU cycles
+
+Monitor is an Abstract Datatype(ADT)
+
+Dead Lock
+- Mutex
+- Hold & Wait
+- No Preemption
+- Circular Wait
+
+Banker's Algorithm - Deadlock avoidance
+
+
+Memory Management
+-Dynamic Loading
+-Dynamic Linking
+-Static Linking
+-A Stub
+
+-swapping : a process to be temprorily be swapped out of mem to sec storage
+
+First-Fit
+Best-Fit
+Worst-Fit
+
+External Fragmentation
+Internal Fragmentation
+
+Paging
+
+MMStruct in PCB has Page table pointer (Page table base register).
+
+Translation look aside buffer a fast lookup hardware cache.
+
+Belady's anomaly
+
+FIFO PAGE replacemernt
+LRU Page replacment
+optimal
+second chance
+
+Alocation Algorithms
+
+Thrashing
