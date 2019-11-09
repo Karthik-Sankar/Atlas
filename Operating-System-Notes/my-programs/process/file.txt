@@ -1,0 +1,13 @@
+total 76
+drwxrwxr-x 2 drothningsvik drothningsvik  4096 Nov  1 15:41 .
+drwxrwxr-x 7 drothningsvik drothningsvik  4096 Nov  1 12:23 ..
+-rwxrwxr-x 1 drothningsvik drothningsvik  8872 Nov  1 15:20 a.out
+-rwxrwxr-x 1 drothningsvik drothningsvik  8608 Nov  1 06:52 arguments
+-rw-rw-r-- 1 drothningsvik drothningsvik   188 Nov  1 06:50 arguments.c
+-rw-rw-r-- 1 drothningsvik drothningsvik   483 Nov  1 15:20 example-exec.c
+-rw-rw-r-- 1 drothningsvik drothningsvik   312 Nov  1 14:44 example-fork.c
+-rw-rw-r-- 1 drothningsvik drothningsvik   474 Nov  1 07:16 example-wait.c
+-rw-rw-r-- 1 drothningsvik drothningsvik   894 Nov  1 07:42 example-waitpid.c
+-rw-r--r-- 1 drothningsvik drothningsvik 12288 Nov  1 15:22 .example-waitpid.c.swp
+-rw-rw-r-- 1 drothningsvik drothningsvik     0 Nov  1 15:41 file.txt
+-rwxrwxr-x 1 drothningsvik drothningsvik  8712 Nov  1 07:00 fork
