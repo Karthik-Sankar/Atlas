@@ -52,3 +52,22 @@ second chance
 Alocation Algorithms
 
 Thrashing
+
+
+
+File Concepts
+Directory has a value of 2 in no of links because when dir is created hard link of same dir is created in the same dir as .
+
+
+Boot-Super Block---------
+
+
+pread, pwrite
+fsync, sync
+dup, dup2
+lstat, fstat, stat
+
+Sticky bit, Effective user id, real user id, Effective group id, real group id
+
+Directory
+struct* dirent dr;
