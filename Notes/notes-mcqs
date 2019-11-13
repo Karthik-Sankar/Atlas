@@ -1,0 +1,12 @@
+system call - non sequential
+system call - an interface for the serviec
+convoy -fifo scheduler
+monolithic -linux
+swapperprocess used in - paging
+threads have diff - prog count, stack pointer,process register
+Dispatcher - context switching
+2.4 - O(n) scheduling
+Complete fair schedulung - Red Black Tree
+drawback of spinlock -waste cpu cycle
+disabling interrupts can solve critical section
+base register and limit register is used for mem protection

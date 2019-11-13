@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
 	{
 		struct stat fs;
 		stat(st->d_name, &fs);
-		printf("%o %d %s\n",fs.st_mode,fs.st_nlink,st->d_name);
+		printf("%o %d %d %d %s\n",fs.st_mode,fs.st_nlink,fs.st_blksize,fs.st_mtime,st->d_name);
 		//printf("%d\n",st->d_ino);
 	}
 }
