@@ -41,6 +41,8 @@ Open Source
 linuxzoo.net
 Process - Foreground & Background Processes
 
+/root - master directory control all users
+
 Commands
 * date
 * exit
@@ -54,4 +56,17 @@ Commands
 * ls
 * man
 * cat
+Append a file - >>
+cat > filename - Replace current content.
+cat >> filename - Append content to end.
+
+Book - Open Source
+
+Filter commands
+- Commands which will put some conditons and filter the records.
+* wc
+* head
+* tail
+* sort
+* sort -r (reverse)
 * 
