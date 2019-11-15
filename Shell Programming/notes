@@ -1,0 +1,57 @@
+System Programming
+-Unix is a multi user multi tasking os
+-3Parts of unix
+	* kernal - heart of unix
+	* shell - interactor between user and kernal (Shell 2 Parts).
+		- commands 
+		- shell scripting
+	* tools & apps - vi editor, firefox, libre office
+-Dev by - Dennis Ritche & Ken Thompson Rutherford - 1969 - Bell labs
+
+Rules
+- All commands should be in lower case.
+- commands go to shell through kernal
+- non disclosures for passwords
+- passwords can go upto 30000 chars
+
+# - Prompt is used by root/super user
+
+Flavours of unix:
+-redhad
+-ubuntu
+-fedora
+-centos
+-suse linux
+-oracle linux
+-debian
+-mint
+-puppy linux
+-sugar candy
+-kali linux
+-hp unix
+-solaris
+
+Open Source
+-download and use for practice
+-teaching purpose
+-corporates can use it for products
+-download and change the source code
+-you can't sell it!
+
+linuxzoo.net
+Process - Foreground & Background Processes
+
+Commands
+* date
+* exit
+* logout
+* login
+* whoami
+* who
+* cal
+* clear
+* pwd
+* ls
+* man
+* cat
+* 
