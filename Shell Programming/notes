@@ -56,7 +56,10 @@ Commands
 * ls
 * man
 * cat
-Append a file - >>
+* tty
+* users
+* mkdir
+
 cat > filename - Replace current content.
 cat >> filename - Append content to end.
 
