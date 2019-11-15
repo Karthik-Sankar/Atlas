@@ -59,11 +59,20 @@ Commands
 * tty
 * users
 * mkdir
-
+* rmdir
+* man syscalls
+* strace
+* cp
+* mv
 cat > filename - Replace current content.
 cat >> filename - Append content to end.
 
 Book - Open Source
+
+Types of Files:
+ordinary files
+directory files
+device files
 
 Filter commands
 - Commands which will put some conditons and filter the records.
