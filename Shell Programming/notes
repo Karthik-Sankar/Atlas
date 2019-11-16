@@ -155,3 +155,12 @@ l - next char
 k - previous line
 j - next line
 x - del a character at curr position
+
+
+Modes of openinig a file
+* cat
+* vi
+* vi -R - readonly mode
+* view filename - readonly mode
+
+shell script - arithmetic operators
