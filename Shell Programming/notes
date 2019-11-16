@@ -41,7 +41,7 @@ Open Source
 linuxzoo.net
 Process - Foreground & Background Processes
 
-/root - master directory control all users
+/<<root>> - master directory control all users
 
 Commands
 * date
@@ -64,8 +64,19 @@ Commands
 * strace
 * cp
 * mv
+* halt
+* lp - print file
+* lpq - file in queue for print
 cat > filename - Replace current content.
 cat >> filename - Append content to end.
+
+Unix Flavours:
+AIX
+BSD
+HP-UX
+QNX
+Solaris
+Tru64
 
 Book - Open Source
 
@@ -81,4 +92,66 @@ Filter commands
 * tail
 * sort
 * sort -r (reverse)
-* 
+* more - pagewise display of docs
+
+
+Redirection operator : 
+> or >>
+
+
+head - what is q?
+wc - what is -c or -m?
+
+
+
+Meta Characters / Wild cards
+? - single char
+* - pattern
+
+
+Dirs
+bin - 
+boot - 
+dev - 
+etc - 
+lib - 
+media - 
+mnt - 
+opt - 
+sbin -
+srv - 
+tmp - 
+usr - 
+var -
+
+
+CHMOD
+4 - r
+2 - w
+1 - x
+o - others
+u - owner
+g - group
+
+Loops - in c its 256, in shell its 270
+
+Variable are pointers in shell
+
+vi de facto sudo editior of linux and unix
+
+Shell
+* variable
+* if
+* loops 
+* switch
+
+esc yy-copy
+esc p-paste after a line
+esc P-paste before a line 
+dd - delete a line
+a -append
+h - move to previous char
+l - next char
+k - previous line
+j - next line
+x - del a character at curr position
