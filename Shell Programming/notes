@@ -94,7 +94,10 @@ Filter commands
 * sort
 * sort -r (reverse)
 * more - pagewise display of docs
-
+* find - search a file in a sys
+* grep 
+* egrep
+* fgrep
 
 Redirection operator : 
 > or >>
@@ -115,15 +118,15 @@ bin -
 boot - 
 dev - 
 etc - 
-lib - 
+lib - shared lib & kernal modues
 media - 
 mnt - 
 opt - 
 sbin -
 srv - 
 tmp - 
-usr - 
-var -
+usr - Users are stored here 
+var - 
 
 
 CHMOD
@@ -205,4 +208,19 @@ Type of Shells - converts commands to machine learning.
 - bourne shell 
 - c shell
 - korne shell
+
+< monitor
+> file
+
+
+
+User and Group Addition : 
+useradd, userdel, usermod
+groupadd, groupdel, groupmod
+passwd, chsh
+
+
+When we remove a user, users home dir is not deleted.(user -r)
+
+esc + :!command - ex : esc:!date
 

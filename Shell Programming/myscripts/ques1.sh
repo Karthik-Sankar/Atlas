@@ -1,6 +1,6 @@
 clear
 echo "Good Morning!"
 date
-who
-tty
-
+who 
+tty 
+echo "Hello"

@@ -1,5 +1,7 @@
-echo "First val:"
-read a
-echo "Second val:"
-read b
-echo "Sum : $(expr $a + $b)"
+#!/usr/bin/env bash
+arr=(1 2 3 4)
+for i in arr;
+do
+echo "$1"
+done
+
