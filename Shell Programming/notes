@@ -67,6 +67,7 @@ Commands
 * halt
 * lp - print file
 * lpq - file in queue for print
+* poweroff - faster than shut down
 cat > filename - Replace current content.
 cat >> filename - Append content to end.
 
@@ -164,3 +165,31 @@ Modes of openinig a file
 * view filename - readonly mode
 
 shell script - arithmetic operators
+
+-softwaretrainer95@gmail.com
+
+Imp
+* vi editior
+* filter commands
+* regex
+* shell scripting
+
+
+FTP
+SFTP
+
+
+PDP 7 - First machine to use unix
+
+Advantage of linux
+* reliability
+* network of networks
+* backward compatibility
+* excellent security features
+* tcp/ip network
+* powerful unified system
+* Access control and security
+
+Unix Architecture
+* The Kernal - Heart of Unix/linux. Database running in 
+* The Shell - Requests in unix/linux read /write /modify / append/print a file, copying data from unix in one geographical location to copy a data to another location
