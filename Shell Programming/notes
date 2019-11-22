@@ -95,9 +95,10 @@ Filter commands
 * sort -r (reverse)
 * more - pagewise display of docs
 * find - search a file in a sys
-* grep 
+* grep - global regular expression print
 * egrep
 * fgrep
+* tr - translate upper case to lower case, delete char from a file
 
 Redirection operator : 
 > or >>
@@ -219,8 +220,17 @@ useradd, userdel, usermod
 groupadd, groupdel, groupmod
 passwd, chsh
 
-
 When we remove a user, users home dir is not deleted.(user -r)
 
 esc + :!command - ex : esc:!date
 
+:n
+:$
+:set nu
+:set nonu
+
+
+
+write a shell script to accept a file name and if the file exist print the file in reverse order
+write a shell script to accept the file and sort the sile in reverse and store it in amazon.doc give read and write permission to owner and no perm to group and other exculuding write and exec
+write a shell script to accept two filenames compare both the files and print what is unique to file1 and unique to file2 common to both.
