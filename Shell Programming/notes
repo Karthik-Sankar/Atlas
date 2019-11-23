@@ -231,6 +231,12 @@ esc + :!command - ex : esc:!date
 
 
 
-write a shell script to accept a file name and if the file exist print the file in reverse order
-write a shell script to accept the file and sort the sile in reverse and store it in amazon.doc give read and write permission to owner and no perm to group and other exculuding write and exec
-write a shell script to accept two filenames compare both the files and print what is unique to file1 and unique to file2 common to both.
+* write a shell script to accept a file name and if the file exist print the file in reverse order
+
+* write a shell script to accept the file and sort the sile in reverse and store it in amazon.doc give read and write permission to owner and no perm to group and other exculuding write and exec
+
+* write a shell script to accept two filenames compare both the files and print what is unique to file1 and unique to file2 common to both.
+
+ln -s
+ln 
+
