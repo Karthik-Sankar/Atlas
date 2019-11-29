@@ -66,6 +66,7 @@ Commands
 * mv
 * halt
 * lp - print file
+* lpr - line print
 * lpq - file in queue for print
 * poweroff - faster than shut down
 cat > filename - Replace current content.
@@ -99,6 +100,12 @@ Filter commands
 * egrep
 * fgrep
 * tr - translate upper case to lower case, delete char from a file
+
+
+* pkill
+* du
+* kill -9
+
 
 Redirection operator : 
 > or >>
@@ -237,6 +244,15 @@ esc + :!command - ex : esc:!date
 
 * write a shell script to accept two filenames compare both the files and print what is unique to file1 and unique to file2 common to both.
 
+
+
 ln -s
-ln 
+ln
+hardlinks - Programming / Database replication - usecase
+
+
+
+-eq -gt are all called as file operators
+
+mysql 8.0 RDBMS - NoSQL
 

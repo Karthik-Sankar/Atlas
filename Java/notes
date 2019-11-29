@@ -1,0 +1,31 @@
+SOFTWARE ARCHITECTURE
+MODEL    - VIEW - CONTROL
+MODEL    - DATA
+VIEW     - UI
+CONTROL  - Compution & Condition & Iteration - Logic
+
+
+
+Use Case : Effective energy utilization
+
+Model : 
+Available Resource
+Historical Trends
+Utlizer Dict
+Effective utilization
+
+View : Dashboard on the trends
+
+Controller:
+Calculation of historic energy waste
+Calculation of trend
+Calculation of 
+
+
+
+
+Data Model -> Container -> Single Valued & Multi Valued
+Multi Valued -> Homogeneous & Hertrogeneous
+
+Static Storage Container (Primitive)
+Dynamic Storage Container

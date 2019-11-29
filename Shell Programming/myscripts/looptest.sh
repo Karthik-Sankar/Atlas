@@ -10,5 +10,5 @@ do
 		echo "$i is odd"
 	fi
 done
-echo "${arr[@]:0:5}"
+#echo "${arr[@]:0:5}"
 
