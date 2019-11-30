@@ -20,16 +20,6 @@ public class ConditionExamples {
 			amount-=(amount*0.1);
 		}
 		System.out.println("Amount after Discount : \u20b9"+amount);
-		int netBanking=1;
-		int payTm=2;
-		int amazonPay=3;
-		int payopt = 3;
-		switch(payopt)
-		{
-		case netBanking:
-			System.out.println("Net Banking!");
-		
-		}
 		
 	}
 }
