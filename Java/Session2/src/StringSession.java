@@ -23,7 +23,6 @@ public class StringSession {
 		
 		StringBuilder sBuffer = new StringBuilder("Hello");
 		
-		
 		String sBuffer2 = new String("Hello");
 		sBuffer2.concat(" Test");
 		
@@ -34,11 +33,6 @@ public class StringSession {
 		System.out.println(s.nextElement());
 		System.out.println(s.nextElement());
 	}
-
-	
 	//contains()
 	//endsWith()
-	
-	
-	
 }
