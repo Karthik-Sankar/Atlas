@@ -1,6 +1,6 @@
 package com.session2;
 
-//Moving Singleton out as a seperate file
+//Moving Singleton out as a separate file
 /*class Node<T>{
 	public T data;
 	public Node<T> link;
@@ -191,3 +191,47 @@ public class LinkedList {
 	}
 
 }
+
+
+
+/*
+ * Output
+ * 
+ * root > null
+ * 
+ * Size of the linked list : 0
+ * 
+ * No element to delete...
+ * 
+ * root > 10 > null
+ * 
+ * Size of the linked list : 1
+ * 
+ * root > 10 > 20 > null
+ * 
+ * Size of the linked list : 2
+ * 
+ * root > 10 > 20 > 30 > null
+ * 
+ * Size of the linked list : 3
+ * 
+ * root > 10 > 20 > 30 > 40 > null
+ * 
+ * Size of the linked list : 4
+ * 
+ * Adding data in the begining... root > 50 > 10 > 20 > 30 > 40 > null
+ * 
+ * Size of the linked list : 5
+ * 
+ * Adding in between... root > 50 > 10 > 20 > 60 > 30 > 40 > null
+ * 
+ * Size of the linked list : 6
+ * 
+ * Deleting Last Element... root > 50 > 10 > 20 > 60 > 30 > null
+ * 
+ * Size of the linked list : 5
+ * 
+ * Deleting First Element... root > 10 > 20 > 60 > 30 > null
+ * 
+ * Size of the linked list : 4
+ */
