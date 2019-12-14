@@ -103,3 +103,79 @@ public class QueueImplementation {
 	}
 
 }
+
+
+
+
+/*
+ * Operation : Enqueue 10
+ * 
+ * Current queue state : 
+ * ------------------------------------- 
+ * 10 >> NULL
+ * ------------------------------------- 
+ * Size of the queue : 1
+ * 
+ * 
+ * Operation : Enqueue 20
+ * 
+ * Current queue state : 
+ * ------------------------------------- 
+ * 10 >> 20 >> NULL
+ * ------------------------------------- 
+ * Size of the queue : 2
+ * 
+ * 
+ * Operation : Enqueue 30
+ * 
+ * Current queue state : 
+ * ------------------------------------- 
+ * 10 >> 20 >> 30 >> NULL 
+ * ------------------------------------- 
+ * Size of the queue : 3
+ * 
+ * 
+ * Operation : Enqueue 40
+ * 
+ * Current queue state : 
+ * ------------------------------------- 
+ * 10 >> 20 >> 30 >> 40 >> NULL 
+ * ------------------------------------- 
+ * Size of the queue : 4
+ * 
+ * 
+ * Operation : Enqueue 50
+ * 
+ * Current queue state : 
+ * ------------------------------------- 
+ * 10 >> 20 >> 30 >> 40 >> 50 >> NULL 
+ * ------------------------------------- 
+ * Size of the queue : 5
+ * 
+ * 
+ * Operation : Dequeue
+ * 
+ * Current queue state : 
+ * ------------------------------------- 
+ * 20 >> 30 >> 40 >> 50 >> NULL 
+ * ------------------------------------- 
+ * Size of the queue : 4
+ * 
+ * 
+ * Operation : Enqueue 10
+ * 
+ * Current queue state : 
+ * ------------------------------------- 
+ * 20 >> 30 >> 40 >> 50 >> 10 >> NULL 
+ * ------------------------------------- 
+ * Size of the queue : 5
+ * 
+ * 
+ * Operation : Dequeue
+ * 
+ * Current queue state : 
+ * ------------------------------------- 
+ * 30 >> 40 >> 50 >> 10 >> NULL 
+ * ------------------------------------- 
+ * Size of the queue : 4
+ */
