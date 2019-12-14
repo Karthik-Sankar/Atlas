@@ -1,8 +1,11 @@
-package com.session1;
-class Node<T>{
-	T data;
-	Node<T> link;
-}
+package com.session2;
+
+//Moving Singleton out as a separate file
+/*class Node<T>{
+	public T data;
+	public Node<T> link;
+}*/
+
 class Stacks<T>{
 	Node<T> top;
 	static int size;
@@ -111,3 +114,73 @@ public class StackImplementation {
 	}
 
 }
+
+
+
+//Output 
+
+//Creating stack with 10
+
+//|----|
+//| 10 |
+//|----|
+
+//Push 20
+
+//|----|
+//| 20 |
+//|----|
+//|----|
+//| 10 |
+//|----|
+
+//Push 30
+
+//|----|
+//| 30 |
+//|----|
+//|----|
+//| 20 |
+//|----|
+//|----|
+//| 10 |
+//|----|
+
+//Pop
+
+//|----|
+//| 20 |
+//|----|
+//|----|
+//| 10 |
+//|----|
+
+//Pop
+
+//|----|
+//| 10 |
+//|----|
+
+//Pop
+
+
+//Pop
+
+//Stack is empty!
+
+//Push 40
+
+//|----|
+//| 40 |
+//|----|
+
+//Push 50
+
+//|----|
+//| 50 |
+//|----|
+//|----|
+//| 40 |
+//|----|
+
+//Peek : 50

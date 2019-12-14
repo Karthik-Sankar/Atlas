@@ -1,9 +1,11 @@
 package com.session2;
 
-class Node<T>{
+//Moving Singleton out as a seperate file
+/*class Node<T>{
 	public T data;
 	public Node<T> link;
-}
+}*/
+
 class List<T>{
 	private static int size;
 	Node<T> root;
