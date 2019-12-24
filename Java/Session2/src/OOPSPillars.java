@@ -4,11 +4,17 @@
  * 3. Encapsulation
  * 
  */
-public class OOPSPillars {
+interface A{
+	int a=10;
+}
+interface B{
+	int b=20;
+}
+
+public class OOPSPillars implements A,B{
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("");
+		System.out.println(a);
 	}
 
 }

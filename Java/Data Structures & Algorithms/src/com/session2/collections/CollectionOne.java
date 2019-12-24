@@ -4,6 +4,8 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.PriorityQueue;
+import java.util.Queue;
 import java.util.Stack;
 
 public class CollectionOne {
@@ -18,15 +20,33 @@ public class CollectionOne {
 		 * Iterator<Integer> itr= l.iterator();
 		 */
 		
-		Stack<Integer> s = new Stack<Integer>();
-		s.push(1);
-		s.push(2);
-		s.push(3);
-		s.push(4);
-		s.push(5);
-		System.out.println(s);
-		s.remove(1);
-		System.out.println(s);
+//		Stack<Integer> s = new Stack<Integer>();
+//		s.push(1);
+//		s.push(2);
+//		s.push(3);
+//		s.push(4);
+//		s.push(5);
+//		System.out.println(s);
+//		s.remove(1);
+//		System.out.println(s);
+		
+		
+		
+		
+		Queue<Integer> queue = new PriorityQueue();
+		queue.add(10);
+		queue.add(9);
+		queue.add(8);
+		queue.add(7);
+		queue.add(6);
+		queue.add(5);
+		System.out.println(queue);
+//		int size = queue.size();
+//		for(int i = 0;i<size;i++)
+//		{
+//			System.out.println(queue.peek());
+//			queue.poll();
+//		}
 	}
 
 }
