@@ -7,6 +7,7 @@ class TreeNode<T>{
 
 class Tree<T extends Comparable<T>>{
 
+	int sum = 0;
 	TreeNode<T> insert(TreeNode<T> node, T data)
 	{
 		if(node == null)
@@ -33,6 +34,23 @@ class Tree<T extends Comparable<T>>{
 			System.out.print(root.data+"\t");
 			inorder(root.right);
 		}
+	}
+	
+	int inordersum(TreeNode<T> root, int depth, int freq[])
+	{
+		if(root!=null)
+		{
+//			System.out.println(root.data+"\t"+ depth);
+			sum += depth*40;
+			inordersum(root.left, depth+1, freq);
+			inordersum(root.right, depth+1, freq);
+		}
+		return sum;
+	}
+	
+	void sums()
+	{
+		sum = 0;
 	}
 	void preorder(TreeNode<T> root)
 	{
@@ -134,50 +152,57 @@ class Tree<T extends Comparable<T>>{
 public class TreesDS {
 
 	public static void main(String[] args) {
-		Tree<Integer> t = new Tree<Integer>();
-		TreeNode<Integer> root = new TreeNode<Integer>();
-		root = t.insert(null, 14);
-		t.insert(root, 23);
-		t.insert(root, 7);
-		t.insert(root, 10);
-		t.insert(root, 33);
-		t.insert(root, 56);
-		t.insert(root, 80);
-		t.insert(root, 66);
-		t.insert(root, 70);
-		t.insert(root, 44);
-		t.insert(root, 50);
-		t.insert(root, 34);
-		System.out.println("Inorder traversal");
-		t.inorder(root);
-		System.out.println();
-		System.out.println("PreOrder traversal");
-		t.preorder(root);
-		System.out.println();
-		System.out.println("PostOrder traversal");
-		t.postorder(root);
-		TreeNode<Integer> x = t.find(root, 10);
-		System.out.println();
-		if(x!=null)
-			System.out.println(x.data+" found in tree");
-		else
-			System.out.println("Data Not Found");
-		
-		System.out.println("Min in tree : "+t.mindata(root));
-		System.out.println("Max in tree : "+t.maxdata(root));
-		
-		System.out.println("Deleting leaf node");
-		t.delete(t.findParent(root, root, 50), t.find(root, 50));
-		t.inorder(root);
-		//System.out.println("");
-		//System.out.println(t.find(root, 66));
-		System.out.println();
-		t.delete(t.findParent(root, root, 44), t.find(root, 44));
-		t.inorder(root);
-		
+//		Tree<Integer> t = new Tree<Integer>();
+//		TreeNode<Integer> root = new TreeNode<Integer>();
+//		root = t.insert(null, 14);
+//		t.insert(root, 23);
+//		t.insert(root, 7);
+//		t.insert(root, 10);
+//		t.insert(root, 33);
+//		t.insert(root, 56);
+//		t.insert(root, 80);
+//		t.insert(root, 66);
+//		t.insert(root, 70);
+//		t.insert(root, 44);
+//		t.insert(root, 50);
+//		t.insert(root, 34);
+//		System.out.println("Inorder traversal");
+//		t.inorder(root);
+//		System.out.println();
+//		System.out.println("PreOrder traversal");
+//		t.preorder(root);
+//		System.out.println();
+//		System.out.println("PostOrder traversal");
+//		t.postorder(root);
+//		TreeNode<Integer> x = t.find(root, 10);
+//		System.out.println();
+//		if(x!=null)
+//			System.out.println(x.data+" found in tree");
+//		else
+//			System.out.println("Data Not Found");
+//		
+//		System.out.println("Min in tree : "+t.mindata(root));
+//		System.out.println("Max in tree : "+t.maxdata(root));
+//		
+//		System.out.println("Deleting leaf node");
+//		t.delete(t.findParent(root, root, 50), t.find(root, 50));
+//		t.inorder(root);
+//		//System.out.println("");
+//		//System.out.println(t.find(root, 66));
+//		System.out.println();
+//		t.delete(t.findParent(root, root, 44), t.find(root, 44));
+//		t.inorder(root);
+		Tree<Integer> t2 = new Tree<Integer>();
+		TreeNode<Integer> root2 = new TreeNode<Integer>();
+		root2 = t2.insert(null, 1);
+		int freq[] = {25,10,20}; 
+		t2.insert(root2, 0);
+		t2.insert(root2, 2);
+		System.out.println(t2.inordersum(root2, 1, freq));
 	}
 	
 }
+
 //R'LR - Pre
 //LRR'- Post
 //LR'R - In
